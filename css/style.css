@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* reset */
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font: 1.6rem 'Lobster',sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background:  rgba(52, 152, 219,0.1)
+   
+
+}
+
+
+h1,h2,h3,p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    border: 0;
+    background-color: #ccc;
+    font-size: 1.6rem;
+}
+/* Les themes */
+:root{
+    --color-background: rgba(52, 152, 219,0.1);
+    --color-submit-header: #1C5882;
+    --color-label-placeholder:#000;
+    --color-text-1:#fff;
+    --color-text-2:#1C5882;
+    
+    
+
+}
+header{
+    margin-bottom: 5.0rem;
+}
+
+header h1{
+    text-align: center;
+    line-height: 7rem;
+    background-color:var(--color-submit-header) ;
+    color:var(--color-text-1);
+}
+
+main .form{
+
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: solid .2rem #5a94be;
+    background-color: #fafafa;
+}
+
+
+section h2{
+    text-align: center;
+
+    margin-bottom: 2rem;
+    color: var(--color-text-2);
+}
+
+
+
+.form input, .form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.form input{
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    padding: .5rem;
+}
+
+
+main,footer{
+    width: 80rem;
+    margin: 0 auto 0;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.form input[type =submit]{
+background-color: var(--color-submit-header);
+font-size: 1.6rem;
+color: var(--color-text-1);
+}
+.form p{
+    font-family: 'sans-serif';
+    z-index: 1;
+    width:16rem;
+    text-align: center;
+    transform: translateY(-2.5rem);
+    font-size: 2rem;
+}
+section .success{
+    color: var(--color-text-1);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    width: 50%;
+    line-height: 4rem;
+    background-color:rgb(68, 192, 37) ;
+}
+section .warning{
+    color: var(--color-text-1);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    width: 50%;
+    line-height: 4rem;
+    background-color:rgb(192, 37, 37) ;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upp{
+    text-transform: uppercase;
+}
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+}
+fieldset{
+    border: none;
+}
